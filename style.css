@@ -1,7 +1,4 @@
-body {
-text-align: center,
-background-color: #87CEFA;
-}
+
 
 h1 {
   color: #00008B;
@@ -19,11 +16,16 @@ p {
   font-weight: normal;
 }
 
-#nav li{
+body {
+  background-color:	#6495ED;
+
+}
+
+#links li {
   list-style-type: none;
   float: left;
   width: 25%;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #nav a:link, a:visited {
