@@ -1,4 +1,6 @@
-
+body {
+background-color: #87CEFA;
+}
 
 h1 {
   color: #00008B;
@@ -19,6 +21,12 @@ p {
 body {
   background-color:	#6495ED;
 
+}
+
+#mark{
+  margin: 10px auto 10px auto;
+  width:90%;
+  text-align: center;
 }
 
 #links li {
