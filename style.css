@@ -5,7 +5,7 @@ background-color: #F0FFFF;
 h1 {
   color: #00008B;
   font-family: 'Merriweather', serif;
-  font-size: 1em;
+  font-size: 2em;
   text-align: center;
   font-weight: bold;
   display: block;
@@ -14,7 +14,7 @@ h1 {
 p {
   color: black;
   font-family: 'Merriweather', serif;
-  font-size: 0.5em;
+  font-size: 1em;
   font-weight: normal;
   text-align: center;
 }
@@ -47,6 +47,7 @@ body {
   text-decoration: none;
   padding: 4px;
   font-family: 'Merriweather', sans-serif;
+  font-size: 1em;
 }
 
 #links a:hover, a:active {
