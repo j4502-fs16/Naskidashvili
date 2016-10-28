@@ -104,3 +104,7 @@ img {
   text-decoration:none;
   border: none;
 }
+
+.aside {
+  margin-top: 128px
+}
