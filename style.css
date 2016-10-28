@@ -37,10 +37,11 @@ ul{
 
 #links li {
   list-style-type: none;
-  float: left;
+  /*float: left;*/
   width: 25%;
   font-size: 1em;
   color: black;
+
 }
 
 #links a:link, a:visited {
