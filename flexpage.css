@@ -110,6 +110,11 @@ img {
   font-weight: 500;
   color: 0000FF
   font-style: normal;
+  text-align: center;
+}
+
+@@media query {
+  
 }
 
 .navigation a:hover {
