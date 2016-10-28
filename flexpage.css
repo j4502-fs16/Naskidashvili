@@ -106,7 +106,10 @@ img {
 }
 
 .aside {
-  margin-top: 128px
+  font-family: 'Meriweather', Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  color: 0000FF
+  font-style: normal;
 }
 
 .navigation a:hover {
