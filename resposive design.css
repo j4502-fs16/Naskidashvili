@@ -85,12 +85,13 @@ title {
 
 img {
   border-style: none;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   width: 40%;
 }
+
+
 
 .navigation li:last-of-type a{
   border-bottom: none;
@@ -123,6 +124,15 @@ img {
   color: #0000FF;
   font-style: normal;
   text-align: center;
+}
+
+@media (max-width: 599px) {
+  aside {
+    display: none;
+  }
+
+
+
 }
 
 @media (min-width:800px) {
