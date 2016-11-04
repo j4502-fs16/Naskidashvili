@@ -1,21 +1,14 @@
-*, *::before, *:after {
-  box-sizing: border-box;
-}
-
 body {
 background-color: #F0FFFF;
-line-height: 1.45em;
 }
 
-#container {
-  width: 95%;
-  margin: 0 auto;
-}
 h1 {
   color: #00008B;
   font-family: 'Merriweather', serif;
-  font-weight: 400;
-
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  display: block;
 }
 
 p {
@@ -132,11 +125,7 @@ img {
   text-align: center;
 }
 
-img, .caption {
-  display: none;
-}
-
-@media screen and (min-width:800px) {
+@media (min-width:800px) {
     #links {
       flex-direction: row;
       justify-content: space-around;
