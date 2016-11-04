@@ -7,13 +7,15 @@ background-color: #F0FFFF;
 line-height: 1.45em;
 }
 
+#container {
+  width: 95%;
+  margin: 0 auto;
+}
 h1 {
   color: #00008B;
   font-family: 'Merriweather', serif;
-  font-size: 2em;
-  text-align: center;
-  font-weight: bold;
-  display: block;
+  font-weight: 400;
+
 }
 
 p {
