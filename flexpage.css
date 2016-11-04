@@ -125,6 +125,13 @@ img {
   text-align: center;
 }
 
+@media (max-width: 599px) {
+  .photo {
+    display: none;
+  }
+
+}
+
 @media (min-width:800px) {
     #links {
       flex-direction: row;
