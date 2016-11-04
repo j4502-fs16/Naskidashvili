@@ -141,6 +141,8 @@ img {
   background-color: #004d80;
 
 }
+p {max-width: 80%;
+margin: 0 auto;}
 
 }
 
@@ -151,6 +153,8 @@ img {
       background-color: #004d80;
       /*background-color: #004d80; */
     }
+
+
 
     #links a:link, #links a:visited {
       padding: 5px 20px;
