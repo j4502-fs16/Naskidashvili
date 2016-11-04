@@ -136,7 +136,7 @@ img, .caption {
   display: none;
 }
 
-@media (min-width:800px) {
+@media screen and (min-width:800px) {
     #links {
       flex-direction: row;
       justify-content: space-around;
