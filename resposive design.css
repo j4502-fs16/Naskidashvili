@@ -127,11 +127,9 @@ img {
 }
 
 @media (max-width: 599px) {
-  img {
+  .photo {
     display: none;
   }
-
-
 
 }
 
