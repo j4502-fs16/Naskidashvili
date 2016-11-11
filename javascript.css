@@ -151,7 +151,7 @@ margin: 0 auto;}
       flex-direction: row;
       justify-content: space-around;
       background-color: #004d80;
-      /*background-color: #004d80; */
+
     }
 
 
@@ -162,7 +162,7 @@ margin: 0 auto;}
 
     .main {
       display: flex;
-      /*justify-content: space-around;*/
+      
     }
 }
 
@@ -173,11 +173,11 @@ body {
 
 nav ul li {
     display: block;
-    border-top: 1px #79896d solid;
+    border-top: 1px #F0FFFF;
 }
 
 nav a {
-    color: #f8ecc2;
+    color: #F0FFFF;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
