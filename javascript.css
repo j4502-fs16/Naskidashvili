@@ -162,7 +162,7 @@ margin: 0 auto;}
 
     .main {
       display: flex;
-      
+
     }
 }
 
@@ -196,6 +196,8 @@ header {
     font-size: 1.75em;
     width: 2em;
 }
+
+
 
 header h1 {
     order: 2;
