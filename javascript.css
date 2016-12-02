@@ -2,6 +2,20 @@ body {
 background-color: #F0FFFF;
 }
 
+.map-responsive {
+  overflow:hidden;;
+  padding-bottom: 60%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive inframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 h1 {
   color: #00008B;
