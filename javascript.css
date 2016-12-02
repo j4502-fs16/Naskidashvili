@@ -3,22 +3,22 @@ background-color: #F0FFFF;
 }
 
 
-@media (max-width: 599px) {
-  .map-responsive {
+@media (max-width: 600px) {
+  .inframe {
     display: none;
   }
 
 }
 
 @media (min-width: 600px) {
-  .map-responsive {
+  .inframe {
     flex-direction: row;
   justify-content: flex-end;
   }
 
 
 @media (min-width:800px) {
-    .map-responsive {
+    .inframe {
       flex-direction: row;
       justify-content: space-around;
 
