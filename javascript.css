@@ -4,21 +4,21 @@ background-color: #F0FFFF;
 
 
 @media (max-width: 600px) {
-  .inframe {
+  .src {
     display: none;
   }
 
 }
 
 @media (min-width: 600px) {
-  .inframe {
+  .src {
     flex-direction: row;
   justify-content: flex-end;
   }
 
 
 @media (min-width:800px) {
-    .inframe {
+    .src {
       flex-direction: row;
       justify-content: space-around;
 
