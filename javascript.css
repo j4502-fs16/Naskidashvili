@@ -4,21 +4,21 @@ background-color: #F0FFFF;
 
 
 @media (max-width: 600px) {
-  .src {
+  .inframe {
     display: none;
   }
 
 }
 
 @media (min-width: 600px) {
-  .src {
+  .inframe {
     flex-direction: row;
   justify-content: flex-end;
   }
 
 
 @media (min-width:800px) {
-    .src {
+    .inframe {
       flex-direction: row;
       justify-content: space-around;
 
@@ -178,8 +178,6 @@ margin: 0 auto;}
 
     }
 
-
-
     #links a:link, #links a:visited {
       padding: 5px 20px;
     }
@@ -188,7 +186,14 @@ margin: 0 auto;}
       display: flex;
 
     }
+
+ @media  (max-width: 599px) {
+   .inframe  {
+     display: none;
+   }
+  
 }
+
 
 body {
   background-color: #F0FFFF;
