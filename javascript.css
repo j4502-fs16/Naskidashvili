@@ -2,20 +2,37 @@ body {
 background-color: #F0FFFF;
 }
 
-.map-responsive {
-  overflow:hidden;;
-  padding-bottom: 60%;
-  position: relative;
-  height: 0;
+
+
+
+
+@media (max-width: 599px) {
+  .map-responsive {
+    display: none;
+  }
+
 }
 
-.map-responsive inframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+@media (min-width: 600px) {
+  #links {
+    flex-direction: row;
+  justify-content: flex-end;
+  background-color: #004d80;
+
 }
+p {max-width: 80%;
+margin: 0 auto;}
+
+}
+
+@media (min-width:800px) {
+    #links {
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: #004d80;
+
+      }
+
 
 h1 {
   color: #00008B;
