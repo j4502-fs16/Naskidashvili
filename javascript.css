@@ -3,29 +3,6 @@ background-color: #F0FFFF;
 }
 
 
-@media (max-width: 600px) {
-  .inframe {
-    display: none;
-  }
-
-}
-
-@media (min-width: 600px) {
-  .inframe {
-    flex-direction: row;
-  justify-content: flex-end;
-  }
-
-
-@media (min-width:800px) {
-    .inframe {
-      flex-direction: row;
-      justify-content: space-around;
-
-
-      }
-
-
 h1 {
   color: #00008B;
   font-family: 'Merriweather', serif;
@@ -187,11 +164,7 @@ margin: 0 auto;}
 
     }
 
- @media  (max-width: 599px) {
-   .inframe  {
-     display: none;
-   }
-  
+
 }
 
 
@@ -268,4 +241,25 @@ nav ul {
         order: 2;
     }
 
+}
+
+
+
+
+
+
+
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
