@@ -3,9 +3,6 @@ background-color: #F0FFFF;
 }
 
 
-
-
-
 @media (max-width: 599px) {
   .map-responsive {
     display: none;
@@ -17,19 +14,14 @@ background-color: #F0FFFF;
   .map-responsive {
     flex-direction: row;
   justify-content: flex-end;
-  background-color: #004d80;
+  }
 
-}
-p {max-width: 80%;
-margin: 0 auto;}
-
-}
 
 @media (min-width:800px) {
     .map-responsive {
       flex-direction: row;
       justify-content: space-around;
-      background-color: #004d80;
+
 
       }
 
